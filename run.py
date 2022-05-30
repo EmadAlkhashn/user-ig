@@ -84,7 +84,6 @@ print("""
  |______| |_|  |_| /_/    \_\ |_____/   |_|\_(_)_| |_|
  Emad-Alkhashn  v.1                                                                  
  >>----------------------------->
-  Whatsapp : +96170318652
   Instagram : @di_1
   version : v.1
   Hacker : Emad-alkhshn
